@@ -95,8 +95,9 @@ const RoomList = ({ onEdit }: { onEdit: (room: Room) => void }) => {
         allowClear
         style={{ marginBottom: 16, width: 200, marginLeft: 10 }}
       >
-        <Select.Option value="Vo Minh Tri">Vo Minh Tri</Select.Option>
-        <Select.Option value="Nguyen Quoc Hung">Nguyen Quoc Hung</Select.Option>
+        <Select.Option value="Đào Nhật Tân">Đào Nhật Tân</Select.Option>
+        <Select.Option value="Nguyen Hoang Anh">Nguyễn Hoàng Anh</Select.Option>
+        <Select.Option value="Nguyễn Ngọc Duy">Nguyễn Ngọc Duy</Select.Option>
       </Select>
       <Table columns={columns} dataSource={filteredRooms} rowKey="id" />
     </div>
